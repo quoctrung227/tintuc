@@ -5,7 +5,7 @@ Tính năng
 Chọn ngẫu nhiên một danh mục tin tức.
 Thu thập tiêu đề bài viết, mô tả, URL hình ảnh, liên kết bài viết và toàn bộ nội dung.
 Xử lý phân trang để thu thập dữ liệu từ tất cả các trang.
-Lưu dữ liệu vào VNNetNews.xlsx và VNNetNews.csv.
+Lưu dữ liệu vào baiviet_vnn_.xlsx.
 Lên lịch thực hiện hàng ngày lúc 6 giờ sáng bằng thư viện lịch trình.
 
 Điều kiện tiên quyết
@@ -18,7 +18,7 @@ Git (để sao chép kho lưu trữ)
 Cài đặt
 1. Sao chép Kho lưu trữ
 git clone https://github.com/quoctrung227/tintuc.git
-cd vietnamnet-news-scraper
+cd tintuc
 
 2. Thiết lập Môi trường ảo (Tùy chọn nhưng được khuyến nghị)
 python -m venv venv
